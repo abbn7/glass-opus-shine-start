@@ -5,10 +5,8 @@ import {
   createRootRoute,
   useRouter,
   useRouterState,
-  Head,
-  Scripts,
-  Meta,
 } from "@tanstack/react-router";
+import { Head, Scripts, Meta } from "@tanstack/react-start";
 import { AnimatePresence, motion } from "framer-motion";
 
 import { LanguageProvider, useLang } from "@/i18n/LanguageContext";
